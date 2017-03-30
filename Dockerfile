@@ -1,4 +1,4 @@
-FROM jenkins
+FROM jenkins:latest
 
 # Become root to install via apt.
 USER root
